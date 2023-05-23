@@ -7,22 +7,20 @@
 
 import UIKit
 import RxSwift
-import RxCocoa
 import RxFDNetwork
-import FDUIKit
 
-class SearchViewController: BaseVC {
+class SearchViewController: UIViewController {
     
     let viewModel = SearchViewModel()
-
-    @IBOutlet weak var searchBar: UITextField!
-    @IBOutlet weak var tableView: UITableView!
     
     private let disposeBag = DisposeBag()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        tableView.register(SearchCell.self, forCellReuseIdentifier: "SongsCell")
+        view.backgroundColor = .systemBackground
+        
+        view.addSubview(searchBar)
+        view.addSubview(tableView)
         
         viewModel.songs.bind(to: tableView.rx.items(cellIdentifier: "SongsCell", cellType: SearchCell.self)) { (rows, songs, cell) in
             cell.textLabel?.text = "\(songs.name ?? "") - \(songs.artists.first?.name ?? "")"
@@ -35,6 +33,18 @@ class SearchViewController: BaseVC {
             .bind(to: viewModel.searchText)
             .disposed(by: disposeBag)
     }
+    
+    lazy var tableView: UITableView = {
+        let tableView = UITableView(frame: CGRect(x: 0, y: 88, width: UIScreen.main.bounds.size.width, height: view.bounds.height - 88), style: .plain)
+        tableView.register(SearchCell.self, forCellReuseIdentifier: "SongsCell")
+        return tableView
+    }()
+    
+    lazy var searchBar: UITextField = {
+        let textField = UITextField(frame: CGRect(x: 0, y: 44, width: UIScreen.main.bounds.size.width, height: 44))
+        textField.placeholder = "请输入歌曲名"
+        return textField
+    }()
 
 
 }

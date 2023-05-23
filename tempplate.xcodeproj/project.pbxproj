@@ -7,22 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC874C132A1CA0CB00A97160 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC874C0F2A1CA0CB00A97160 /* SearchCell.swift */; };
+		DC874C142A1CA0CB00A97160 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC874C102A1CA0CB00A97160 /* SearchViewModel.swift */; };
+		DC874C152A1CA0CB00A97160 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC874C112A1CA0CB00A97160 /* SearchVC.swift */; };
+		DC874C162A1CA0CB00A97160 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC874C122A1CA0CB00A97160 /* SearchModel.swift */; };
 		DCE8624D2A174FA900F1F6A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8624C2A174FA900F1F6A1 /* AppDelegate.swift */; };
 		DCE8624F2A174FA900F1F6A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8624E2A174FA900F1F6A1 /* SceneDelegate.swift */; };
 		DCE862512A174FA900F1F6A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE862502A174FA900F1F6A1 /* ViewController.swift */; };
 		DCE862542A174FA900F1F6A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE862522A174FA900F1F6A1 /* Main.storyboard */; };
 		DCE862562A174FAA00F1F6A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE862552A174FAA00F1F6A1 /* Assets.xcassets */; };
 		DCE862592A174FAA00F1F6A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE862572A174FAA00F1F6A1 /* LaunchScreen.storyboard */; };
-		DCE8629E2A1755C300F1F6A1 /* FDFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = DCE8629D2A1755C300F1F6A1 /* FDFoundation */; };
 		DCE862A42A17653100F1F6A1 /* RxFDNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE862A32A17653100F1F6A1 /* RxFDNetwork.swift */; };
-		DCE862A92A17655A00F1F6A1 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE862A52A17655900F1F6A1 /* SearchCell.swift */; };
-		DCE862AA2A17655A00F1F6A1 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE862A62A17655900F1F6A1 /* SearchVC.swift */; };
-		DCE862AB2A17655A00F1F6A1 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE862A72A17655900F1F6A1 /* SearchModel.swift */; };
-		DCE862AC2A17655A00F1F6A1 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE862A82A17655900F1F6A1 /* SearchViewModel.swift */; };
 		DCE862B62A17726E00F1F6A1 /* RxFDNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = DCE862B52A17726E00F1F6A1 /* RxFDNetwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC874C0F2A1CA0CB00A97160 /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		DC874C102A1CA0CB00A97160 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		DC874C112A1CA0CB00A97160 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		DC874C122A1CA0CB00A97160 /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		DCE862492A174FA900F1F6A1 /* tempplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE8624C2A174FA900F1F6A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE8624E2A174FA900F1F6A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,10 +35,6 @@
 		DCE862582A174FAA00F1F6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCE8625A2A174FAA00F1F6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE862A32A17653100F1F6A1 /* RxFDNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxFDNetwork.swift; sourceTree = "<group>"; };
-		DCE862A52A17655900F1F6A1 /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
-		DCE862A62A17655900F1F6A1 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
-		DCE862A72A17655900F1F6A1 /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
-		DCE862A82A17655900F1F6A1 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE8629E2A1755C300F1F6A1 /* FDFoundation in Frameworks */,
 				DCE862B62A17726E00F1F6A1 /* RxFDNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC874C0E2A1CA0CB00A97160 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DC874C0F2A1CA0CB00A97160 /* SearchCell.swift */,
+				DC874C102A1CA0CB00A97160 /* SearchViewModel.swift */,
+				DC874C112A1CA0CB00A97160 /* SearchVC.swift */,
+				DC874C122A1CA0CB00A97160 /* SearchModel.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		DCE862402A174FA900F1F6A1 = {
 			isa = PBXGroup;
 			children = (
@@ -71,8 +80,8 @@
 		DCE8624B2A174FA900F1F6A1 /* tempplate */ = {
 			isa = PBXGroup;
 			children = (
+				DC874C0E2A1CA0CB00A97160 /* Demo */,
 				DCE862AD2A1765AC00F1F6A1 /* Network */,
-				DCE862A02A1763BA00F1F6A1 /* Demo */,
 				DCE8624C2A174FA900F1F6A1 /* AppDelegate.swift */,
 				DCE8624E2A174FA900F1F6A1 /* SceneDelegate.swift */,
 				DCE862502A174FA900F1F6A1 /* ViewController.swift */,
@@ -82,17 +91,6 @@
 				DCE8625A2A174FAA00F1F6A1 /* Info.plist */,
 			);
 			path = tempplate;
-			sourceTree = "<group>";
-		};
-		DCE862A02A1763BA00F1F6A1 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				DCE862A52A17655900F1F6A1 /* SearchCell.swift */,
-				DCE862A72A17655900F1F6A1 /* SearchModel.swift */,
-				DCE862A62A17655900F1F6A1 /* SearchVC.swift */,
-				DCE862A82A17655900F1F6A1 /* SearchViewModel.swift */,
-			);
-			path = Demo;
 			sourceTree = "<group>";
 		};
 		DCE862AD2A1765AC00F1F6A1 /* Network */ = {
@@ -127,7 +125,6 @@
 			);
 			name = tempplate;
 			packageProductDependencies = (
-				DCE8629D2A1755C300F1F6A1 /* FDFoundation */,
 				DCE862B52A17726E00F1F6A1 /* RxFDNetwork */,
 			);
 			productName = tempplate;
@@ -159,7 +156,6 @@
 			);
 			mainGroup = DCE862402A174FA900F1F6A1;
 			packageReferences = (
-				DCE8629C2A1755C300F1F6A1 /* XCRemoteSwiftPackageReference "FDFoundation" */,
 				DCE8629F2A175C8B00F1F6A1 /* XCRemoteSwiftPackageReference "FDUIKit" */,
 				DCE862B42A17726E00F1F6A1 /* XCRemoteSwiftPackageReference "RxFDNetwork" */,
 			);
@@ -190,14 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE862AA2A17655A00F1F6A1 /* SearchVC.swift in Sources */,
+				DC874C142A1CA0CB00A97160 /* SearchViewModel.swift in Sources */,
 				DCE862512A174FA900F1F6A1 /* ViewController.swift in Sources */,
-				DCE862AC2A17655A00F1F6A1 /* SearchViewModel.swift in Sources */,
-				DCE862A92A17655A00F1F6A1 /* SearchCell.swift in Sources */,
+				DC874C132A1CA0CB00A97160 /* SearchCell.swift in Sources */,
+				DC874C162A1CA0CB00A97160 /* SearchModel.swift in Sources */,
 				DCE8624D2A174FA900F1F6A1 /* AppDelegate.swift in Sources */,
-				DCE862AB2A17655A00F1F6A1 /* SearchModel.swift in Sources */,
 				DCE862A42A17653100F1F6A1 /* RxFDNetwork.swift in Sources */,
 				DCE8624F2A174FA900F1F6A1 /* SceneDelegate.swift in Sources */,
+				DC874C152A1CA0CB00A97160 /* SearchVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,17 +415,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DCE8629C2A1755C300F1F6A1 /* XCRemoteSwiftPackageReference "FDFoundation" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://gitee.com/fandongtongxue_admin/FDFoundation";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		DCE8629F2A175C8B00F1F6A1 /* XCRemoteSwiftPackageReference "FDUIKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://gitee.com/fandongtongxue_admin/FDUIKit";
+			repositoryURL = "https://gitee.com/fandongtongxue_admin/FDUIKit.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -446,11 +434,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DCE8629D2A1755C300F1F6A1 /* FDFoundation */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DCE8629C2A1755C300F1F6A1 /* XCRemoteSwiftPackageReference "FDFoundation" */;
-			productName = FDFoundation;
-		};
 		DCE862B52A17726E00F1F6A1 /* RxFDNetwork */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DCE862B42A17726E00F1F6A1 /* XCRemoteSwiftPackageReference "RxFDNetwork" */;

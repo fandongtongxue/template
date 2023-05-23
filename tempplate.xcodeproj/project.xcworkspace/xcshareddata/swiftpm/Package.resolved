@@ -21,19 +21,19 @@
     {
       "identity" : "fdfoundation",
       "kind" : "remoteSourceControl",
-      "location" : "https://gitee.com/fandongtongxue_admin/FDFoundation",
+      "location" : "https://gitee.com/fandongtongxue_admin/FDFoundation.git",
       "state" : {
         "branch" : "master",
-        "revision" : "c04f1661ff3c9bac0bbc6b91ca848be693e26539"
+        "revision" : "cf03addccf7e342bc552c931c87e9d00d3e289b4"
       }
     },
     {
       "identity" : "fduikit",
       "kind" : "remoteSourceControl",
-      "location" : "https://gitee.com/fandongtongxue_admin/FDUIKit",
+      "location" : "https://gitee.com/fandongtongxue_admin/FDUIKit.git",
       "state" : {
         "branch" : "master",
-        "revision" : "93b9b563c91f5392a326af1221d9fd55308fd131"
+        "revision" : "258ffc9591c65ebe26dca03d23506c40497a97ba"
       }
     },
     {
@@ -43,15 +43,6 @@
       "state" : {
         "branch" : "master",
         "revision" : "f0b15db3bc0c51e935ea2385d6e33d412f04fffe"
-      }
-    },
-    {
-      "identity" : "hue",
-      "kind" : "remoteSourceControl",
-      "location" : "https://gitee.com/fandongtongxue_admin/Hue.git",
-      "state" : {
-        "branch" : "master",
-        "revision" : "d98d97d6bdd6904ab5cffa96ad6fc47f6233b510"
       }
     },
     {
