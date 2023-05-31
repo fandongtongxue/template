@@ -11,7 +11,7 @@ import RxCocoa
 import RxAlamofire
 import FDLibrary
 
-class SearchViewModel {
+class SearchVM {
     var songs: BehaviorRelay<[SearchModelResultSongs]> = BehaviorRelay(value: [])
     var searchText: BehaviorSubject<String> = BehaviorSubject(value: "")
     

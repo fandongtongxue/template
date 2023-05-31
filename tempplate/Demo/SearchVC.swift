@@ -11,7 +11,7 @@ import FDLibrary
 
 class SearchVC: BaseVC {
     
-    let viewModel = SearchViewModel()
+    let viewModel = SearchVM()
     
     override func viewDidLoad() {
         super.viewDidLoad()
