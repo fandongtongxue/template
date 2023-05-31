@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 import RxAlamofire
-import RxFDNetwork
+import FDLibrary
 
 class SearchViewModel {
     var songs: BehaviorRelay<[SearchModelResultSongs]> = BehaviorRelay(value: [])

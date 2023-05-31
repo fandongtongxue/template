@@ -7,7 +7,7 @@
 
 import Foundation
 import Alamofire
-import RxFDNetwork
+import FDLibrary
 
 extension RxFDNetwork {
     static func getRequest(method: Alamofire.HTTPMethod = .post,

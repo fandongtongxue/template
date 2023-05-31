@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import FDLibrary
 
-class SearchCell: UITableViewCell {
+class SearchCell: BaseTableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

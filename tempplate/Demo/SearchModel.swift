@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import RxFDNetwork
+import FDLibrary
 
 class SearchModel: FDBaseModel {
     var code: Int = 0

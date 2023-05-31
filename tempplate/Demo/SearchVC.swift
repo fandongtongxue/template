@@ -7,7 +7,7 @@
 
 import UIKit
 import RxSwift
-import RxFDNetwork
+import FDLibrary
 
 class SearchViewController: UIViewController {
     
@@ -34,8 +34,8 @@ class SearchViewController: UIViewController {
             .disposed(by: disposeBag)
     }
     
-    lazy var tableView: UITableView = {
-        let tableView = UITableView(frame: CGRect(x: 0, y: 88, width: UIScreen.main.bounds.size.width, height: view.bounds.height - 88), style: .plain)
+    lazy var tableView: BaseTableView = {
+        let tableView = BaseTableView(frame: CGRect(x: 0, y: 88, width: UIScreen.main.bounds.size.width, height: view.bounds.height - 88), style: .plain)
         tableView.register(SearchCell.self, forCellReuseIdentifier: "SongsCell")
         return tableView
     }()

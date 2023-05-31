@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC63DAE42A26F0D900B01775 /* FDLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = DC63DAE32A26F0D900B01775 /* FDLibrary */; };
 		DC874C132A1CA0CB00A97160 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC874C0F2A1CA0CB00A97160 /* SearchCell.swift */; };
 		DC874C142A1CA0CB00A97160 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC874C102A1CA0CB00A97160 /* SearchViewModel.swift */; };
 		DC874C152A1CA0CB00A97160 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC874C112A1CA0CB00A97160 /* SearchVC.swift */; };
@@ -18,7 +19,6 @@
 		DCE862562A174FAA00F1F6A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE862552A174FAA00F1F6A1 /* Assets.xcassets */; };
 		DCE862592A174FAA00F1F6A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE862572A174FAA00F1F6A1 /* LaunchScreen.storyboard */; };
 		DCE862A42A17653100F1F6A1 /* RxFDNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE862A32A17653100F1F6A1 /* RxFDNetwork.swift */; };
-		DCE862B62A17726E00F1F6A1 /* RxFDNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = DCE862B52A17726E00F1F6A1 /* RxFDNetwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE862B62A17726E00F1F6A1 /* RxFDNetwork in Frameworks */,
+				DC63DAE42A26F0D900B01775 /* FDLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			);
 			name = tempplate;
 			packageProductDependencies = (
-				DCE862B52A17726E00F1F6A1 /* RxFDNetwork */,
+				DC63DAE32A26F0D900B01775 /* FDLibrary */,
 			);
 			productName = tempplate;
 			productReference = DCE862492A174FA900F1F6A1 /* tempplate.app */;
@@ -156,8 +156,7 @@
 			);
 			mainGroup = DCE862402A174FA900F1F6A1;
 			packageReferences = (
-				DCE8629F2A175C8B00F1F6A1 /* XCRemoteSwiftPackageReference "FDUIKit" */,
-				DCE862B42A17726E00F1F6A1 /* XCRemoteSwiftPackageReference "RxFDNetwork" */,
+				DC63DAE22A26F0D900B01775 /* XCRemoteSwiftPackageReference "FDLibrary" */,
 			);
 			productRefGroup = DCE8624A2A174FA900F1F6A1 /* Products */;
 			projectDirPath = "";
@@ -415,17 +414,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DCE8629F2A175C8B00F1F6A1 /* XCRemoteSwiftPackageReference "FDUIKit" */ = {
+		DC63DAE22A26F0D900B01775 /* XCRemoteSwiftPackageReference "FDLibrary" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://gitee.com/fandongtongxue_admin/FDUIKit.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		DCE862B42A17726E00F1F6A1 /* XCRemoteSwiftPackageReference "RxFDNetwork" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://gitee.com/fandongtongxue_admin/RxFDNetwork.git";
+			repositoryURL = "https://gitee.com/fandongtongxue_admin/FDLibrary.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -434,10 +425,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DCE862B52A17726E00F1F6A1 /* RxFDNetwork */ = {
+		DC63DAE32A26F0D900B01775 /* FDLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DCE862B42A17726E00F1F6A1 /* XCRemoteSwiftPackageReference "RxFDNetwork" */;
-			productName = RxFDNetwork;
+			package = DC63DAE22A26F0D900B01775 /* XCRemoteSwiftPackageReference "FDLibrary" */;
+			productName = FDLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
