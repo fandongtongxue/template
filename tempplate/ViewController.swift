@@ -6,9 +6,7 @@
 //
 
 import UIKit
-import FDFoundation
-//import FDUIKit
-import RxFDNetwork
+import FDLibrary
 
 class ViewController: UIViewController {
 
@@ -18,8 +16,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func searchBtnAction(_ sender: UIButton) {
-        let searchVC = SearchViewController()
-        present(searchVC, animated: true, completion: nil)
+        let searchVC = SearchVC()
+        let nav = BaseNavigationC(rootViewController: searchVC)
+        present(nav, animated: true, completion: nil)
     }
     
 }
