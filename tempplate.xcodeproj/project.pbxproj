@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC63DAE42A26F0D900B01775 /* FDLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = DC63DAE32A26F0D900B01775 /* FDLibrary */; };
 		DC63DAEA2A27216C00B01775 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC63DAE62A27216C00B01775 /* SearchCell.swift */; };
 		DC63DAEB2A27216C00B01775 /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC63DAE72A27216C00B01775 /* SearchVM.swift */; };
 		DC63DAEC2A27216C00B01775 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC63DAE82A27216C00B01775 /* SearchVC.swift */; };
@@ -42,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC63DAE42A26F0D900B01775 /* FDLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +123,6 @@
 			);
 			name = tempplate;
 			packageProductDependencies = (
-				DC63DAE32A26F0D900B01775 /* FDLibrary */,
 			);
 			productName = tempplate;
 			productReference = DCE862492A174FA900F1F6A1 /* tempplate.app */;
@@ -156,7 +153,7 @@
 			);
 			mainGroup = DCE862402A174FA900F1F6A1;
 			packageReferences = (
-				DC63DAE22A26F0D900B01775 /* XCRemoteSwiftPackageReference "FDLibrary" */,
+				DC8695792A3BF2B600593B7F /* XCRemoteSwiftPackageReference "FDLibrary" */,
 			);
 			productRefGroup = DCE8624A2A174FA900F1F6A1 /* Products */;
 			projectDirPath = "";
@@ -414,23 +411,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DC63DAE22A26F0D900B01775 /* XCRemoteSwiftPackageReference "FDLibrary" */ = {
+		DC8695792A3BF2B600593B7F /* XCRemoteSwiftPackageReference "FDLibrary" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://gitee.com/fandongtongxue_admin/FDLibrary.git";
+			repositoryURL = "https://github.com/fandongtongxue/FDLibrary.git";
 			requirement = {
 				branch = main;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		DC63DAE32A26F0D900B01775 /* FDLibrary */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DC63DAE22A26F0D900B01775 /* XCRemoteSwiftPackageReference "FDLibrary" */;
-			productName = FDLibrary;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DCE862412A174FA900F1F6A1 /* Project object */;
 }
